@@ -5,7 +5,8 @@ import torch
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--model", type=str, required=False, default='google/gemma-2b-it')
+# parser.add_argument("--model", type=str, required=False, default='google/gemma-2b-it')
+parser.add_argument("--model", type=str, required=False, default='HuggingFaceH4/zephyr-7b-gemma-v0.1')
 parser.add_argument("--device",
                     type=str,
                     default="cpu",
